@@ -6,3 +6,51 @@
   box-sizing: border-box;
   font-family: "Archivo", sans-serif;
 }
+
+footer{
+  background-color: #F3F7FF;
+  padding: 10px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  color: #121214;
+}
+
+header{
+  background-image: url(../image/image-michael-jordan.png);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: scale(1.5);
+}
+
+.headerContainer{
+  max-width: 1216px;
+  margin: auto;
+}
+
+.headerContent{
+  min-width: 328px;
+  max-width: 557px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 90px 0px;
+}
+
+.logo{
+  width: 203px;
+}
+
+.headerTitle{
+  font-size: 32px;
+  font-weight: 500;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.headerInfo{
+  font-size: 24px;
+  line-height: 33.6px;
+  color: #FFFFFF;
+}
