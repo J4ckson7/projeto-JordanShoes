@@ -7,6 +7,7 @@
   font-family: "Archivo", sans-serif;
 }
 
+/* Footer */
 footer{
   background-color: #F3F7FF;
   padding: 10px;
@@ -16,12 +17,12 @@ footer{
   color: #121214;
 }
 
+/* header */
 header{
   background-image: url(../image/image-michael-jordan.png);
-  background-position: top;
+  background-position: inherit;
   background-size: cover;
   background-repeat: no-repeat;
-  transform: scale(1.5);
 }
 
 .headerContainer{
@@ -53,4 +54,55 @@ header{
   font-size: 24px;
   line-height: 33.6px;
   color: #FFFFFF;
+}
+
+/* main */
+main{
+  margin-top: 72px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.mainContainer{
+  width: 1216px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+
+}
+
+
+.mainIntro{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 593px;
+  text-align: center;
+  margin-bottom: 72px;
+}
+
+.mainTitulo{
+  color: #121214;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.mainIntrudução{
+  color: #121214;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33.6px;
+}
+
+.mainProdutos{
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr 1fr;
+  gap: 32px;
+}
+
+.produtoContainer{
+  max-width: 384px;
+  border: 1px solid black;
 }
