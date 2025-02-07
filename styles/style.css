@@ -31,7 +31,6 @@ header{
 }
 
 .headerContent{
-  min-width: 328px;
   max-width: 557px;
   display: flex;
   flex-direction: column;
@@ -349,10 +348,70 @@ main{
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 870px) {
+  footer{
+    font-size: 16px;
+  }
+
+  .logo{
+    width: 142px;
+  }
+
+  .headerTitle{
+    font-size: 24px;
+  }
+  
+  .headerInfo{
+    font-size: 18px;
+    line-height: 25.2px;
+  }
+
+  .mainTitulo{
+    font-size: 24px;
+  }
+  
+  .mainIntrudução{
+    font-size: 16px;
+    line-height: 22.4px;
+  }
+}
+
+@media (max-width: 982px) {
   .mainProdutos{
     display: grid;
     grid-template: 1fr 1fr 1fr / 1fr 1fr;
     gap: 32px;
+  }
+}
+
+@media (max-width: 575px) {
+  .mainProdutos{
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr 1fr 1fr / 1fr;
+    gap: 32px;
+  }
+}
+
+@media (max-width: 500px) {
+  footer{
+    font-size: 14px;
+  }
+  
+  .headerInfo{
+    font-size: 16px;
+    line-height: 22.4px;
+  }
+
+  .mainTitulo{
+    font-size: 20px;
+  }
+  
+  .mainIntrudução{
+    font-size: 14px;
+    line-height: 19.6px;
+  }
+
+  .produtoNome{
+    font-size: 16px;
   }
 }
